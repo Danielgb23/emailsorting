@@ -34,6 +34,6 @@ k++;
 int main() {
   yylex();
 
-  printf("%d %d %d\n", k+j+i, j+i, i);
+  printf("%d %d %d\n", k+j+i, j+i, i);//print total, unicamp, fee
   return 0;
 }
